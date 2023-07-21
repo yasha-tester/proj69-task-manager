@@ -1,3 +1,7 @@
+# about:
+
+task manager page in html, made with starter files from https://github.com/john-smilga/node-express-course/tree/main/03-task-manager repo, while following tutorial. Its connected to MongoDB using Mongoose, has html page and api.
+
 <h2>how to use this task manager</h2>
 
 1. Download this repo, go to the repo folder, call "npm install" in terminal;
