@@ -1,4 +1,11 @@
-# in process
+<h2>how to use this task manager</h2>
 
-1. you can use and add data only through the postman requests with address http://localhost:4000/tasks, where you need to pass an object with "name":":id" and optionally "completed":boolean parameters.
-2. you should create your database in mongodb and pass the connection string with the name of MONGO_URI to the .env file which you need to create yourself in root folder of a project.
+1. Download this repo, go to the repo folder, call "npm install" in terminal;
+2. Create your database in mongodb and create file with the name ".env" and set a value MONGO_URI=yourDatabaseString;
+3. Call "npm run start" from the repo folder.
+4. Open http://localhost:4000/ in your browser, if PORT variable has not changed (4000 is a PORT and it is visible in console when you call "npm run terminal")
+
+<h3>using api from this task manager:</h3>
+
+1. Complete all previously described steps (if you not already had)
+2. Open http://localhost:4000/api/v1/tasks in your browser, if PORT variable has not (4000 is a PORT and it is visible in console when you call "npm run terminal")
